@@ -1,0 +1,15 @@
+header, #portfolio{
+    background-color: rgb(20, 3, 22);
+}
+
+footer,#about{
+    background-color: rgb(49, 43, 53);
+}
+
+.martel-regular {
+  font-family: "Martel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
