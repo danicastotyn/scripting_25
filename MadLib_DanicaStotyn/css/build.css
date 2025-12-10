@@ -1,0 +1,67 @@
+/* Height for inner content */
+.customHeight {
+    height: 40vh;
+}
+
+/* Main background colour */
+.bg-main {
+    background-color: rgb(236, 153, 251);
+}
+
+/* Background image only for the header */
+header.bg-main {
+    background-image: linear-gradient(
+            rgba(205, 114, 227, 0.5),
+            rgba(233, 152, 219, 0.5)
+        ),
+        url("/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #f880d4;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #98c6f7;
+}
+
+#story-output {
+    font-size: 1.2rem;
+    background-color: #d69bf3;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+
+
+
+
